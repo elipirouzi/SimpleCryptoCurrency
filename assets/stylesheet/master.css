@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  font-family: "Nunito";
+}
+
+#first {
+  width: 100%;
+  min-height: 60vh;
+  background-color: #ffd500;
+  background-image: url(../../image/exchange-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+#first > section:nth-of-type(1) > h1 {
+  max-width: 550px;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#first > section:nth-of-type(2) {
+  align-items: center;
+}
+#first > section:nth-of-type(2) > p {
+  font-size: 14px;
+  max-width: 400px;
+  font-weight: 600;
+}
+#first > section:nth-of-type(3) {
+  width: 75%;
+  min-height: 110px;
+  background: rgba(0, 0, 0, 0.1);
+  align-content: center;
+}
+#first > section:nth-of-type(3) > input {
+  width: 30%;
+  padding: 10px;
+  background: #f0e8cb;
+  border: none;
+  outline: none;
+}
+#first > section:nth-of-type(3) > select {
+  width: 13%;
+  margin-left: 7px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+#first > section:nth-of-type(3) > select > option {
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+}
+#first > section:nth-of-type(3) > span {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+#first > section:nth-of-type(3) > input, #first > section:nth-of-type(3) select, #first > section:nth-of-type(3) span {
+  height: 60px;
+}
+#first > section:nth-of-type(4) {
+  align-items: center;
+}
+#first > section:nth-of-type(4) > button {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: #3e3f3a;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+#first > section:nth-of-type(4):hover ::before {
+  left: 0;
+}
+#first > section:nth-of-type(4) ::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(37, 37, 37, 0.3490196078);
+  top: 0;
+  left: -100%;
+  transition: 0.4s;
+}
+#first > section:nth-of-type(1), #first section:nth-of-type(2), #first section:nth-of-type(3), #first section:nth-of-type(4) {
+  margin: 25px 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
+#second {
+  width: 100%;
+  padding: 20px 15px !important;
+  background-color: #F6F6F6;
+}
+#second > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#second > div > article {
+  width: 23%;
+  margin: 20px 15px !important;
+  padding: 15px !important;
+  background-color: white;
+}
+#second > div > article > figure {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  padding: 10px !important;
+}
+#second > div > article > figure > img {
+  width: 60px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+}
+#second > div > article > figure > figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding-left: 15px;
+}
+#second > div > article > div {
+  padding: 5px 10px !important;
+  font-size: 14px;
+}
+#second > div > article > div > h6 {
+  text-transform: uppercase;
+}
+#second > div > article > div:nth-of-type(2) {
+  color: #29abe0;
+  font-weight: bold;
+  padding-bottom: 10px !important;
+}
+
+#load {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+#load > h4 {
+  width: 120px;
+  height: 50px;
+  background-color: #ffd500;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=master.css.map */

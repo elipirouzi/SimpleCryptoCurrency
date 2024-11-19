@@ -1,0 +1,114 @@
+/* small mobile */
+@media screen and (max-width: 575px){
+    #first>section:nth-of-type(1)>h1{
+        font-size: 18px;
+        max-width: 300px;
+    }
+    #first>section:nth-of-type(2)>p{
+        font-size: 13px;
+        max-width: 300px;
+
+    }
+    #first>section:nth-of-type(3){
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px !important;
+    }
+    #first>section:nth-of-type(3)>input{
+        width: 65%;
+    }
+    #first>section:nth-of-type(3)>select{
+        width: 28%;
+        font-size: 12px;
+    }
+    #first>section:nth-of-type(3)>span{
+        width: 100%;
+    }
+    /* end first */
+    #second>div>article{
+        width: 85%;
+    }
+}
+/* big mobile */
+@media screen and (min-width: 576px) {
+    #first>section:nth-of-type(1)>h1{
+        font-size: 1.5rem;
+        max-width: 500px;
+        padding-top: 15px !important;
+    }
+    #first>section:nth-of-type(2)>p{
+        font-size: 14px;
+        max-width: 400px;
+
+    }
+    #first>section:nth-of-type(3){
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px !important;
+    }
+    #first>section:nth-of-type(3)>input{
+        width: 30%;
+    }
+    #first>section:nth-of-type(3)>select{
+        width: 13%;
+        font-size: 12px;
+    }
+    #first>section:nth-of-type(3)>span{
+        width: 10%;
+    }
+    /* end first */
+    #second>div>article{
+        width: 85%;
+    }
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+    #first>section:nth-of-type(1)>h1{
+        font-size: 2rem;
+        max-width: 550px;
+        padding-top: 15px !important;
+    }
+    #first>section:nth-of-type(2)>p{
+        font-size: 14px;
+        max-width: 400px;
+
+    }
+    #first>section:nth-of-type(3){
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px !important;
+    }
+    #first>section:nth-of-type(3)>input{
+        width: 30%;
+    }
+    #first>section:nth-of-type(3)>select{
+        width: 13%;
+        font-size: 15px;
+    }
+    #first>section:nth-of-type(3)>span{
+        width: 10%;
+    }
+    /* end first */
+    #second>div>article{
+        width: 45%;
+    }
+}
+/* l desktop */
+@media screen and (min-width: 992px) {
+    #second>div>article{
+        width: 30%;
+    }
+}    
+/* xl desktop */
+@media screen and (min-width:1200px) {
+    #second>div>article{
+        width: 23%;
+    }
+}
+/* xxl desktop*/
+@media screen and (min-width: 1400px) {
+    
+}
